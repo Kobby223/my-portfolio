@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/kofi.jpg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick = "closemenu()" ></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="middle">
+                <div class="header-text">
+                    <p>Frontend Developer / UI/UX Designer.</p>
+                    <h1>I'm <span>Boateng</span> Godfred <br>a Developer from <br> Ghana.</h1>
+                </div>
+                <img src="images/glitch-image.png" width="300px" alt="">
+            </div>
+        </div>
+        
+    </div>
+
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <!-- <div class="about-col-1">
+                    <img src="images/kofi.jpg" alt="">
+                </div>-->
+                <div class="about-col-2">
+                    <center><h1 class="sub">About <span>Section</span>.</h1></center>
+                    <p>Looking for 100% remote opportunity in Bootstrap, React, HTML&CSS, Tailwind CSS or any other Frontend Technologies, even in Internships or Part time or full time or Big projects</p>
+                    <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('expereince')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>   
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Web Developer</span><br>Designing Web/App Interfaces</li>
+                            <li><span>App Development</span><br> Designing & Building Android/ios Apps with Flutter</li>
+                            <li><span>UI / UX</span><br> Designing Web/App Interfaces</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-content" id="expereince">
+                        <ul>
+                            <li><span>2019 - 2021</span><br> UI/UX Training at Udemy and Alison</li>
+                            <li><span>2019 - 2020</span><br>Frontend Web Development & Flutter Training at Udemy and FreeCodeCamp</li>
+                            <li><span>2020 - 2021</span><br>Frontend Web Developer at codetheTechnology</li>
+                            <li><span>2021 - 2022</span><br>Internship at Orzbek Training Consult</li>
+                            <li><span>2022 - Current</span><br>Flutter Developer self employed</li>
+                            
+                        </ul>
+                    </div> 
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Cerified as a UI/UX from Udemy and Alison</li>
+                            <li><span>2020</span><br>Certified as a Frontend Web & Flutter Developer from Udemy and FreeCodeCamp</li>
+                            <li><span>2022</span><br>Certificate of Internship at Orzbek Training Consult</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+
+    <div id="services">
+        <div class="container">
+            <center><h1 class="sub">Mes <span> services</span>.</h1></center>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-curly'></i>
+                    <h2>Web Designing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sit consectetur alias ea corporis sunt ipsum omnis. Maxime nisi</p>
+                    <a href="#">More</a>
+                </div>
+                <div>
+                    <i class='bx bxs-leaf' ></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sit consectetur alias ea corporis sunt ipsum omnis. Maxime nisi</p>
+                    <a href="#">More</a>
+                </div>
+                <div>
+                    <i class='bx bx-happy'></i>
+                    <h2>App Develop</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sit consectetur alias ea corporis sunt ipsum omnis. Maxime nisi</p>
+                    <a href="#">More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <center><h1 class="sub">Mes <span> Portefeuille</span>.</h1></center>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/helen1.png" alt="">
+                    <div class="layer">
+                        <h3>Helen's Outlet Shop</h3>
+                        <p>A Designed Ladies Night Wears for both children and adults</p>
+                        <a href="https://kobby223.github.io/ecommerce-page/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/wok2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Star Clinic</h3>
+                        <p>Star Clinic, a Hospital system where clients book Appointment for Treatment and Check-ups</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/wok3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Helen's Outlet Shop</h3>
+                        <p>A Designed Ladies Night Wears for both children and adults</p>
+                        <a href="https://kobby223.github.io/ecommerce-page/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/moro.jpg" alt="">
+                    <div class="layer">
+                        <h3>Moroccanoil Shop</h3>
+                        <p>Explore a variety of Moroccanoil argan oil-infused styling and finishing products to achieve hold, fullness, volume, shine or heat protection. Shop Now.</p>
+                        <a href="https://kobby223.github.io/moroccanoil/src/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/cirles.png.png" alt="">
+                    <div class="layer">
+                        <h3>A work load site </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quaerat architecto ullam. Officiis, quia! Maxime iure il</p>
+                        <a href="https://kobby223.github.io/circles/src/"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/star.png" alt="">
+                    <div class="layer">
+                        <h3>Star Clinic</h3>
+                        <p>Star Clinic, a Hospital system where clients book Appointment for Treatment and Check-ups</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact</h1>
+                    <p><i class='bx bx-mail-send' ></i>gbaoteng569@gmail.com</p>
+                    <p><i class='bx bxs-phone-call' ></i>+233 26 390 3903</p>
+                    <div class="social-icons">
+                        <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://www.linkedin.com/in/godfred-boateng-8317a718a/"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                    <a href="images/résumé.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-left">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-link');
+        var tabcontents = document.getElementsByClassName('tab-content');
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+
+    <!--Open and Close -->
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+        function openmenu(){
+            sidemenu.style.right = '0';
+        }
+        function closemenu(){
+            sidemenu.style.right = '-200px';
+        }
+    </script>
+    <!--GoogleSheets-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw_q-Anl6usEIGcU2bSHu61SOr3hBDNxXFdLUJ3UA6jjDpLexvaymLYA0cSFf6j-meoLA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg');
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
